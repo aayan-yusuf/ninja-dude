@@ -1,0 +1,23 @@
+{
+  "name": "ninja-dude",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aayan-yusuf/ninja-dude.git"
+  },
+  "author": "Aayan Yusuf Zaman",
+  "license": "GPL-2.0-only",
+  "bugs": {
+    "url": "https://github.com/aayan-yusuf/ninja-dude/issues"
+  },
+  "homepage": "https://github.com/aayan-yusuf/ninja-dude#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

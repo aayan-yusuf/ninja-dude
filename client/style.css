@@ -1,0 +1,36 @@
+body {
+	margin: 0;
+}
+
+.main-box {
+	background-color: cyan;
+	position: absolute;
+	width: 100%;
+	height: 100vh;
+}
+
+.game-box {
+	position: relative;
+	margin-top: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: red;
+}
+
+.viewport {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.layer {
+	position: absolute;
+	will-change: transform;
+}
+
+.tile {
+	position: absolute;
+}
+
+// vim: ts=2 softtabstop=2 noexpandtab
